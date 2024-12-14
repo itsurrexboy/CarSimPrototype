@@ -749,6 +749,12 @@ MonoBehaviour:
   centerOfMass: {fileID: 689712010}
   speedometerText: {fileID: 1716512733}
   rpmText: {fileID: 191894594}
+  allWheels:
+  - {fileID: 2070806359}
+  - {fileID: 1329465199}
+  - {fileID: 208922708}
+  - {fileID: 148711415}
+  wheelsOnGround: 0
 --- !u!4 &288704820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436868, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
@@ -3332,7 +3338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 436868, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 436868, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
       propertyPath: m_LocalPosition.z
